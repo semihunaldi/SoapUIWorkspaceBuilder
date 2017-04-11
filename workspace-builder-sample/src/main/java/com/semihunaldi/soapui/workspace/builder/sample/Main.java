@@ -37,7 +37,7 @@ public class Main
                     //You can add requests, mock services, urls to project in this listener
                 }
             });
-            workspaceBuilderFactory.createWorkSpaceWithProjects();
+            Workspace generatedWorkspace = workspaceBuilderFactory.createWorkSpaceWithProjects();
             System.out.println(workspaceBuilderFactory.getErrorOccuredWslds());
             //Check your desktop and import workspace to SoapUI
         }

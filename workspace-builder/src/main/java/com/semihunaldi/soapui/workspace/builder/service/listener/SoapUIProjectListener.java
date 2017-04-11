@@ -11,5 +11,5 @@ import com.semihunaldi.soapui.workspace.builder.model.wsdl.Wsdl;
 public interface SoapUIProjectListener
 {
     //throwed exceptions will be swollen
-    public void doWhatYouWant(Wsdl wsdl, WsdlProject project, Workspace workspace);
+    public void doWhatYouWant(Wsdl wsdl, WsdlProject project, Workspace workspace) throws Exception;
 }
